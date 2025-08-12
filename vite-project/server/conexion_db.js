@@ -1,6 +1,5 @@
 import dotenv from "dotenv"; // Librería para manejar variables de entorno desde un archivo .env
 import mysql from "mysql2/promise"; // Cliente MySQL compatible con promesas
-
 dotenv.config(); // Carga las variables de entorno definidas en el archivo .env
 
 // Crea un pool (grupo) de conexiones para optimizar el acceso a la base de datos
